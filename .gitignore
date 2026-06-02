@@ -1,0 +1,34 @@
+# Data files — too large for GitHub
+shared/data/
+data/
+
+# Binary JARs — download separately
+shared/jars/
+spark_jobs/jars/
+
+# Airflow runtime
+logs/
+plugins/
+pip-cache/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# MinIO data (Docker volume — not tracked)
+minio_data/
+
+# JMX exporter binaries
+jmx-exporter/*.jar
